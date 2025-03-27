@@ -12,6 +12,7 @@ distance = np.arange(1.0,11.0,1.0)
 model = ['ddt', 'd2t', 'merge']
 expo = float(input('Please insert the Exposure Time: '))
 mode = input('"old" or "new" rmf: ')
+# resopnse matrix cannot be shared
 old = {
     'rmf':'astena-nft.rmf',
     'arf':'astena-nft.arf',
